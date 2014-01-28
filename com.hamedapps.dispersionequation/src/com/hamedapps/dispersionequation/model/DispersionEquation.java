@@ -8,6 +8,7 @@ import java.util.Vector;
  *
  */
 public class DispersionEquation {
+	private double t;
 	private double sigma, h;
 	private double kh;
 	private double k;
@@ -15,8 +16,9 @@ public class DispersionEquation {
 	private Vector<Double> khVsTanhkhs;
 	private Vector<Double> khVsYs;
 	
-	public DispersionEquation(double sigma, double h) {
-		this.sigma=sigma;
+	public DispersionEquation(double t, double h) {
+		this.t = t;
+		sigma= (2*Math.PI)/t;
 		this.h = h;
 		
 		khs = new Vector<>();
@@ -146,5 +148,19 @@ public class DispersionEquation {
 	 */
 	public void setKhVsYs(Vector<Double> khVsYs) {
 		this.khVsYs = khVsYs;
+	}
+
+	/**
+	 * @return the t
+	 */
+	public double getT() {
+		return t;
+	}
+
+	/**
+	 * @param t the t to set
+	 */
+	public void setT(double t) {
+		this.t = t;
 	}
 }

@@ -17,7 +17,7 @@
               <children xsi:type="basic:Part" xmi:id="_nCyjgIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.resultpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ResultsPart" label="Results"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_lgV5UIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.3" containerData="400">
-              <children xsi:type="basic:Part" xmi:id="_u0MqUIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.ChartPart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ChartPart" label="Chart"/>
+              <children xsi:type="basic:Part" xmi:id="_u0MqUIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.chartpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ChartPart" label="Chart"/>
             </children>
           </children>
         </children>
@@ -27,18 +27,26 @@
       <children xsi:type="menu:Menu" xmi:id="_RipJcIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.menu.file" label="&amp;File">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_URWLYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledmenuitem.exit" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_gSPPwIgXEeOgkughG1NCXA" elementId="com.hamedapps.dispersionequation.menu.tools" label="&amp;Tools">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_i79rEIgXEeOgkughG1NCXA" elementId="com.hamedapps.dispersionequation.handledmenuitem.0" label="Compute" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/media-playback-start.png" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_5t_RYIgXEeOgkughG1NCXA" elementId="com.hamedapps.dispersionequation.menu.help" label="&amp;Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_8TPcYIgXEeOgkughG1NCXA" elementId="com.hamedapps.dispersionequation.handledmenuitem.1" label="About" tooltip="About" command="__U_WIIgXEeOgkughG1NCXA"/>
+      </children>
     </mainMenu>
     <trimBars xmi:id="_Zu7OYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="_ajL84IWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.toolbar.0">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_cPmbYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledtoolitem.0" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/application-exit.png" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_wddtkIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.handledtoolitem.compute" label="Compute" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_cPmbYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledtoolitem.0" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/application-exit.png" tooltip="Exit the application" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wddtkIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.handledtoolitem.compute" label="Compute" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/media-playback-start.png" tooltip="Compute" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
       </children>
     </trimBars>
   </children>
   <handlers xmi:id="_HDu6kIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handler.exit" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.ExitHandler" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
   <handlers xmi:id="_h_tqkIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.handler.compute" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.ComputeHandler" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
+  <handlers xmi:id="_N_MgwIgYEeOgkughG1NCXA" elementId="com.hamedapps.dispersionequation.handler.about" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.AboutHandler" command="__U_WIIgXEeOgkughG1NCXA"/>
   <commands xmi:id="_1gLkQIWSEeOmyOrDMiLCuA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
   <commands xmi:id="_e7RpMIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.command.compute" commandName="Compute"/>
+  <commands xmi:id="__U_WIIgXEeOgkughG1NCXA" elementId="org.eclipse.ui.help.aboutAction" commandName="About"/>
   <addons xmi:id="_2hRyIYUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_2hRyIoUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_2hRyI4UUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

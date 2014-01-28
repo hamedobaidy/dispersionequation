@@ -1,14 +1,14 @@
  
 package com.hamedapps.dispersionequation.part;
 
-import javax.inject.Inject;
 import javax.annotation.PostConstruct;
-import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.custom.ScrolledComposite;
+import javax.inject.Inject;
+
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.custom.ScrolledComposite;
 import org.eclipse.swt.custom.StyledText;
-import org.eclipse.jface.text.TextViewer;
+import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Composite;
 
 public class DescriptionPart {
 	@Inject
@@ -24,11 +24,12 @@ public class DescriptionPart {
 		scrolledComposite.setExpandHorizontal(true);
 		scrolledComposite.setExpandVertical(true);
 		
-		TextViewer textViewer = new TextViewer(scrolledComposite, SWT.BORDER);
-		StyledText styledText = textViewer.getTextWidget();
+		StyledText styledText = new StyledText(scrolledComposite, SWT.BORDER | SWT.WRAP);
+		styledText.setText("Solving Dispersion Equation\nThis program solves Dispersion Equation by iterative and graphical methods.\n1- Set wave period and water depth values\n2- Click compute button or select Tools->Compute menu\n\nThe result will be displayed and chart will be updated.");
+		styledText.setEditable(false);
 		scrolledComposite.setContent(styledText);
 		scrolledComposite.setMinSize(styledText.computeSize(SWT.DEFAULT, SWT.DEFAULT));
-		//TODO Your code here
+		
 	}
 	
 	

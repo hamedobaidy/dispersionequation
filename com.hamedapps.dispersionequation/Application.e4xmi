@@ -13,7 +13,7 @@
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Gi7l8IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.2" containerData="500">
-            <children xsi:type="basic:PartStack" xmi:id="_kwUxoIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.2" containerData="150">
+            <children xsi:type="basic:PartStack" xmi:id="_kwUxoIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.2" containerData="165">
               <children xsi:type="basic:Part" xmi:id="_nCyjgIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.resultpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ResultsPart" label="Results"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_lgV5UIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.3" containerData="400">

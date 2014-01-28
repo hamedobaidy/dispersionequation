@@ -43,10 +43,14 @@ public class ResultsPart {
 		
 		textL = new Text(parent, SWT.BORDER);
 		textL.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
-		//TODO Your code here
+		
 	}
 	
 	
-	
+	public void updateResults( double sigma, double k, double l) {
+		textSigma.setText(Double.toString(sigma));
+		textK.setText(Double.toString(k));
+		textL.setText(Double.toString(l));
+	}
 	
 }

@@ -15,6 +15,7 @@ public class DispersionEquation {
 	private Vector<Double> khs;
 	private Vector<Double> khVsTanhkhs;
 	private Vector<Double> khVsYs;
+	private double l;
 	
 	public DispersionEquation(double t, double h) {
 		this.t = t;
@@ -50,6 +51,7 @@ public class DispersionEquation {
 			kh_i=kh;
 		}
 		k=kh/h;
+		l=(2*Math.PI)/k;
 	}
 	
 	private void computeKHvsTanhKH() {
@@ -162,5 +164,12 @@ public class DispersionEquation {
 	 */
 	public void setT(double t) {
 		this.t = t;
+	}
+
+	/**
+	 * @return
+	 */
+	public double getL() {
+		return l;
 	}
 }

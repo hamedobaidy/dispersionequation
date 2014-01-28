@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_2hRyIIUUEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_5jAdwIUUEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.trimmedwindow.0" label="Dispersion Equation" tooltip="Dispersion Equation" x="100" y="100" width="800" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_9mQl4IUWEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_-YHgoIUWEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_DV1-4IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_FPJC0IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.1" containerData="300">
+            <children xsi:type="basic:PartStack" xmi:id="_IViMAIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.0" containerData="150">
+              <children xsi:type="basic:Part" xmi:id="_J05tAIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.datapart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DataPart" label="Given Data"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_ZUMskIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.1" containerData="400">
+              <children xsi:type="basic:Part" xmi:id="_ZlVf4IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.descriptionpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DescriptionPart" label="Description"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_Gi7l8IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.2" containerData="500">
+            <children xsi:type="basic:PartStack" xmi:id="_kwUxoIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.2" containerData="150">
+              <children xsi:type="basic:Part" xmi:id="_nCyjgIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.resultpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ResultsPart" label="Results"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_lgV5UIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.3" containerData="400">
+              <children xsi:type="basic:Part" xmi:id="_u0MqUIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.ChartPart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ChartPart" label="Chart"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_4g_8QIUWEeOKEdPgRE6Qdg" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_RipJcIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.menu.file" label="&amp;File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_URWLYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledmenuitem.exit" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_Zu7OYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_ajL84IWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_cPmbYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledtoolitem.0" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/application-exit.png" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_HDu6kIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handler.exit" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.ExitHandler" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+  <commands xmi:id="_1gLkQIWSEeOmyOrDMiLCuA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <addons xmi:id="_2hRyIYUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_2hRyIoUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_2hRyI4UUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_2hRyJIUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_2hRyJYUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_2hRyJoUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_2hRyJ4UUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

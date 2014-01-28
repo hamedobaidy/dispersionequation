@@ -3,20 +3,31 @@
 
 <product name="dispersionequation" id="com.hamedapps.dispersionequation.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" useFeatures="true" includeLaunchers="true">
 
+   <aboutInfo>
+      <text>
+         Solving Dispersion Equation in water wave mechanics.
+
+By: Hamed Mohammadi
+email: hamedapps@gmail.com
+      </text>
+   </aboutInfo>
+
    <configIni use="default">
    </configIni>
 
    <launcherArgs>
-      <programArgs>-clearPersistedState</programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
-   <launcher>
+   <windowImages/>
+
+   <launcher name="dispersionequation">
       <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>

@@ -6,18 +6,18 @@
         <children xsi:type="basic:PartSashContainer" xmi:id="_DV1-4IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.0" horizontal="true">
           <children xsi:type="basic:PartSashContainer" xmi:id="_FPJC0IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.1" containerData="300">
             <children xsi:type="basic:PartStack" xmi:id="_IViMAIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.0" containerData="150">
-              <children xsi:type="basic:Part" xmi:id="_J05tAIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.datapart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DataPart" label="Given Data"/>
+              <children xsi:type="basic:Part" xmi:id="_J05tAIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.datapart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DataPart" label="Given Data" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/stock_new-text.png"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_ZUMskIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.1" containerData="400">
-              <children xsi:type="basic:Part" xmi:id="_ZlVf4IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.descriptionpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DescriptionPart" label="Description"/>
+              <children xsi:type="basic:Part" xmi:id="_ZlVf4IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.descriptionpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.DescriptionPart" label="Description" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/help-faq.png"/>
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_Gi7l8IUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partsashcontainer.2" containerData="500">
             <children xsi:type="basic:PartStack" xmi:id="_kwUxoIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.2" containerData="165">
-              <children xsi:type="basic:Part" xmi:id="_nCyjgIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.resultpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ResultsPart" label="Results"/>
+              <children xsi:type="basic:Part" xmi:id="_nCyjgIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.resultpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ResultsPart" label="Results" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/stock_text_justify.png"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_lgV5UIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.partstack.3" containerData="400">
-              <children xsi:type="basic:Part" xmi:id="_u0MqUIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.chartpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ChartPart" label="Chart"/>
+              <children xsi:type="basic:Part" xmi:id="_u0MqUIUXEeOKEdPgRE6Qdg" elementId="com.hamedapps.dispersionequation.part.chartpart" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.part.ChartPart" label="Chart" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/insert-image.png"/>
             </children>
           </children>
         </children>

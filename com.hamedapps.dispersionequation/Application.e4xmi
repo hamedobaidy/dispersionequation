@@ -31,11 +31,14 @@
     <trimBars xmi:id="_Zu7OYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="_ajL84IWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.toolbar.0">
         <children xsi:type="menu:HandledToolItem" xmi:id="_cPmbYIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handledtoolitem.0" iconURI="platform:/plugin/com.hamedapps.dispersionequation/icons/application-exit.png" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wddtkIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.handledtoolitem.compute" label="Compute" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
       </children>
     </trimBars>
   </children>
   <handlers xmi:id="_HDu6kIWTEeOmyOrDMiLCuA" elementId="com.hamedapps.dispersionequation.handler.exit" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.ExitHandler" command="_1gLkQIWSEeOmyOrDMiLCuA"/>
+  <handlers xmi:id="_h_tqkIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.handler.compute" contributionURI="bundleclass://com.hamedapps.dispersionequation/com.hamedapps.dispersionequation.handler.ComputeHandler" command="_e7RpMIfdEeO4WJ-EkBi1UA"/>
   <commands xmi:id="_1gLkQIWSEeOmyOrDMiLCuA" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_e7RpMIfdEeO4WJ-EkBi1UA" elementId="com.hamedapps.dispersionequation.command.compute" commandName="Compute"/>
   <addons xmi:id="_2hRyIYUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_2hRyIoUUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_2hRyI4UUEeOKEdPgRE6Qdg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

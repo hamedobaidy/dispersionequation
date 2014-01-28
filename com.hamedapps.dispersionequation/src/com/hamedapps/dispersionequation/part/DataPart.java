@@ -11,8 +11,8 @@ import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.layout.GridData;
 
 public class DataPart {
-	private Text text;
-	private Text text_1;
+	private Text textT;
+	private Text textH;
 	@Inject
 	public DataPart() {
 		//TODO Your code here
@@ -26,15 +26,15 @@ public class DataPart {
 		lblWavePeriodsec.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
 		lblWavePeriodsec.setText("Wave Period (sec): ");
 		
-		text = new Text(parent, SWT.BORDER);
-		text.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		textT = new Text(parent, SWT.BORDER);
+		textT.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		
 		Label lblWaterDepthm = new Label(parent, SWT.NONE);
 		lblWaterDepthm.setLayoutData(new GridData(SWT.RIGHT, SWT.CENTER, false, false, 1, 1));
 		lblWaterDepthm.setText("Water Depth (m): ");
 		
-		text_1 = new Text(parent, SWT.BORDER);
-		text_1.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		textH = new Text(parent, SWT.BORDER);
+		textH.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		//TODO Your code here
 	}
 	

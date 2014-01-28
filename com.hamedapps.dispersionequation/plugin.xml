@@ -12,6 +12,10 @@
                name="appName"
                value="dispersionequation">
          </property>
+         <property
+               name="aboutText"
+               value="Solving Dispersion Equation in water wave mechanics.&#x0A;&#x0A;By: Hamed Mohammadi&#x0A;email: hamedapps@gmail.com">
+         </property>
       </product>
    </extension>
 

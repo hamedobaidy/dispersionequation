@@ -42,7 +42,7 @@ public class ChartPart {
 		IAxis xAxis = axisSet.getXAxis(0);
 		xAxis.getTitle().setText("kh");
 		chart.getTitle().setText("Single root to dispersion equation");
-		axisSet.getYAxis(0).getTitle().setText("");
+		axisSet.getYAxis(0).getTitle().setText(" ");
 		//TODO Your code here
 	}
 	
